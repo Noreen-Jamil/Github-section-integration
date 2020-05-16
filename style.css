@@ -1,0 +1,103 @@
+*{
+			box-sizing: border-box;
+		}
+		section{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding:3% 5%;
+		}
+		
+		h1{
+			font-size: 14px;
+			color:#586069;
+			font-family: 'DM Mono', monospace;
+			letter-spacing: 1px;
+			word-spacing: 5px;
+			letter-spacing: 2px;
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+		h2{
+			margin: 0;
+			font-size: 45px;
+			font-family: 'Roboto', sans-serif;
+		}
+		p{
+			text-align: center;
+			color:#586069;
+			width:60%;
+			font-family: 'Roboto', sans-serif;
+		}
+		section>p{
+			font-size: 25px;
+			
+		}
+		#images-div{
+			margin:3% 0;
+			//vertical-align: middle;
+			//border:1px solid grey;
+			display: flex;
+			justify-content: center;
+			padding:2% 0;
+
+		}
+		img{
+			border-radius:50px;
+			width:7%;
+			padding:1.5%;
+			margin-left: 2%;
+			//border:1px solid black;
+		}
+		#slack{
+			background-color: #4a154b;
+			margin-bottom: 4%;
+		}
+		#zenhub{
+			background-color: #364e98;
+			margin-top: 4%;
+		}
+		#travis{
+			background-color: #eff9f9;
+			margin-bottom: 4%;
+		}
+		#atom{
+			background-color:#5fb57d;
+			margin-top: 4%;
+		}
+		#circle{
+			background-color: #022531;
+			margin-bottom: 4%;
+		}
+		#google{
+			background-color: #f2f2f2;
+			margin-top: 4%;
+		}
+		#code{
+			background-color: #303030;
+			margin-bottom: 4%;
+		}
+		a{
+			text-decoration: none;
+			color:#0366d6;
+			font-family: 'Roboto', sans-serif;
+
+		}
+		section>a{
+			font-size: 18px;
+			border:1px solid #0366d6;
+			padding:2% 5%;
+			//margin:10% 0;
+		}
+		#bottom-text>p{
+			color:#586069;
+		}
+		#bottom-text>a{
+			font-size: 17px;
+		}
+		#bottom-text{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
